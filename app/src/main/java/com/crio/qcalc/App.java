@@ -10,7 +10,7 @@ public class App {
 
     public static void main(String[] args) {
         //System.out.println(new App().getGreeting());
-        StandardCalculator calc = new StandardCalculator();
+        /*StandardCalculator calc = new StandardCalculator();
         calc.add(2,400);
         calc.printResult();
         calc.subtract(500, 450);
@@ -21,6 +21,11 @@ public class App {
         calc.printResult();
         calc.clearResult();
         calc.printResult();
-        System.out.println(calc.getResult());
+        System.out.println(calc.getResult());*/
+
+        ScientificCalculator calc = new ScientificCalculator();
+        //double result= calc.cubeOf(4.0);
+        int result= calc.modulo(5, 2);
+        System.out.println("modulo =" + result);
     }
 }
