@@ -9,7 +9,7 @@ public class App {
     }
 
     public static void main(String[] args) {
-        //System.out.println(new App().getGreeting());
+        ///System.out.println(new App().getGreeting());
         /*StandardCalculator calc = new StandardCalculator();
         calc.add(2,400);
         calc.printResult();
